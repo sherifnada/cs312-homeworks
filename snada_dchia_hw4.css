@@ -1,0 +1,45 @@
+ul{
+	list-style-type: none;
+}
+
+.container {
+	width: 90%;
+	margin:0, auto;
+}
+
+li img{
+	display:inline-block;
+	padding-right: 50px;
+}
+
+p{
+	display:inline-block;
+}
+
+.description{
+	display:block;
+}
+
+.header{
+	font-size: 30px;
+}
+
+.hidden{
+	display: none;
+}
+
+.title{
+	vertical-align: top;
+	width: 50%;
+}
+
+.rating{
+	float:right;
+}
+
+.details {
+	display: inline-block;
+	vertical-align: top;
+	width: 70%;
+	font-size: 30px;
+}
