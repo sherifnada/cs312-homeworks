@@ -1,5 +1,7 @@
 ul{
 	list-style-type: none;
+	padding: 0px;
+	/*margin:0px;*/
 }
 
 .container {
@@ -7,9 +9,19 @@ ul{
 	margin:0, auto;
 }
 
+h1 {
+	margin: 0px;
+	-webkit-margin-before: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-margin-start: 0px;
+	width: 60%;
+	display:inline;
+}
+
 li img{
 	display:inline-block;
 	padding-right: 50px;
+	padding-left: 50px;
 }
 
 p{
@@ -40,6 +52,7 @@ p{
 .details {
 	display: inline-block;
 	vertical-align: top;
-	width: 70%;
+	width: 60%;
 	font-size: 30px;
+	text-align: left;
 }
